@@ -1,0 +1,23 @@
+{
+  "name": "js-code-katas",
+  "version": "1.0.0",
+  "description": "JavaScript code katas",
+  "author": "Joshua Ball <joshua.g.s.ball@gmail.com> (https://github.com/joshball)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/joshball/js-code-katas",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joshball/js-code-katas.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshball/js-code-katas/issues"
+  },
+  "dependencies": {
+    "mocha": "^1.21.5"
+  }
+}
