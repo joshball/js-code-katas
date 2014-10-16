@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>01 Inheritance Patterns</title>
+    <link href="../bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="../bower_components/bootstrap/dist/css/bootstrap-theme.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid">
+        <h1>01 Inheritance Patterns</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="well">
+                    <h2>Classical</h2>
+                    <div id="eipClassicalTextField"></div>
+                    <div id="eipClassicalTextArea"></div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="well">
+                    <h2>Prototypal</h2>
+                    <div id="eipPrototypalTextField"></div>
+                    <div id="eipPrototypalTextArea"></div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="well">
+                    <h2>Mixins</h2>
+                    <div id="eipMixinTextField"></div>
+                    <div id="eipMixinTextArea"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--<script src="../bower_components/jquery/dist/jquery.js"></script>-->
+    <!--<script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>-->
+
+    <script src="common/library.js"></script>
+
+    <script src="solutions/ClassicalEditInPlaceField.js"></script>
+    <script src="solutions/PrototypalEditInPlaceField.js"></script>
+    <script src="solutions/MixinEditInPlaceField.js"></script>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
